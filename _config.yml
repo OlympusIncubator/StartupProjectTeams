@@ -6,16 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+<<<<<<< HEAD
 title: Project Olympus Startup Project Teams
 email: your-email@domain.com
+=======
+title: Project Olympus Startup Projects
+email: erino@cmu.edu
+>>>>>>> 990c2904accf348139cdf9e1c38c0ba51bc46993
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  This is a listing of all the current Project Olympus Startup Projects. We do our best to update these company listing, however, for the most up-to-date information regarding the company, you can check their website.
+baseurl: "olympus-incubator.github.io/startup-project-teams" # the subpath of your site, e.g. /blog
+url: "http://olympus-incubator.github.io" # the base hostname & protocol for your site
+twitter_username: projectolympus
+github_username:  olympus-incubator
 
 # Build settings
 markdown: kramdown
+
+collections:
+    projects:
+        output: true
+        permalink: /:path
