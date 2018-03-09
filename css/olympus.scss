@@ -16,3 +16,37 @@ $cmu-red: #b00;
 $cmu-grey: #e0e0e0;
 $cmu-dark-grey: #666;
 
+body, h1, h2, h3, h4, h5, h6, h7 {
+    font-family: $main-font;
+    color:$cmu-dark-grey;
+}
+.card {
+    border-radius: 13px;
+    box-shadow: 0 2px 12px 0 rgba(211, 211, 211, 0.5);
+    margin-bottom: 30px;
+}
+h1 {
+    font-size:20px;
+    font-weight: $bold;
+}
+h2 {
+    font-size: 12px;
+}
+p {
+    font-size: 12px;
+}
+.founders {
+    font-weight: $bold;
+    margin-bottom: 4px;
+}
+.card-content {
+    background-color: #f9f9f9;
+    padding: 16px;
+    padding-bottom: 22px;
+}
+.logo-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
