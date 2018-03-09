@@ -12,7 +12,7 @@ title: Project Olympus Startup Projects
 email: erino@cmu.edu
 description: > # this means to ignore newlines until "baseurl:"
   This is a listing of all the current Project Olympus Startup Projects. We do our best to update these company listing, however, for the most up-to-date information regarding the company, you can check their website.
-baseurl: "olympus-incubator.github.io/startup-project-teams" # the subpath of your site, e.g. /blog
+baseurl: "/startup-project-teams" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: projectolympus
 github_username:  olympus-incubator
