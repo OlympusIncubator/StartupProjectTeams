@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
-    {% assign project_order = site.projects | sort: 'date' | reverse %}
-    {% for project in project_order %}
-    <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-        <a class="post-link" href="{{ project.website }}">
-            <div>
-            <img class="thumbnail-image" src="img/thumbnails/{{ project.thumbnail }}">
+
+{% assign project_test = site.projects | sort: 'name' %}
+{% for project in project_test %}
+        <div class="small-6 medium-4 large-3 cell">
+            <div class="card">
+                <div class="logo-container">
+                    <img src="img/logos/{{project.logo}}" alt="{{project.name}}">
+                </div>
+                <div class="card-content">
+                    <h1>{{project.name}}</h1>
+                    <h2>{{project.tagline}}</h2>
+                    <p>{{project.description}}</p>
+                    <p class="founders">Founders</p>
+                    <p>{{project.founders}}</p>
+                </div>
             </div>
-            <div class="thumbnail-container">
-                <h1 src="{{ project.name }}"></h1>
-                <h2 class ="italics" src="{{ project.tagline }}"></h2>
-                <p src="{{ project.description }}"></p>
-                <p class = "bold">Founders:</p>
-                <p src="{{ project.founders }}"></p>
-            </div>
-        </a>
-    </div>
-    {% endfor %}
+        </div>
+{% endfor %}

@@ -1,22 +1,22 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Project Olympus Startup Projects
-email: erino@cmu.edu
+main_title: Project Olympus
+website: cmu.edu/olympus
 description: > # this means to ignore newlines until "baseurl:"
-  This is a listing of all the current Project Olympus Startup Projects. We do our best to update these company listing, however, for the most up-to-date information regarding the company, you can check their website.
-baseurl: "/startup-project-teams" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+  This is a listing of all the current Project Olympus Startup Projects. We do our best to update these company listing, however, for the most up-to-date information regarding the company you can check their website.
+footer_desc: >
+  Project Olympus is the startup incubator for Carnegie Mellon University.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://olympus-incubator.github.io" # the base hostname & protocol for your site
 twitter_username: projectolympus
 github_username:  olympus-incubator
 
 # Build settings
+permalink: pretty
 markdown: kramdown
+
+sass:
+    sass_dir: _sass
 
 collections:
     projects:
