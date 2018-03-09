@@ -50,3 +50,38 @@ p {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+//******* Footer Styling
+.socialButton {
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #ececec;
+  margin: 5px;
+}
+
+.socialButton:hover {
+  background-color: #cccccc;
+}
+
+.social {
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: $cmu-grey;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+//******* End of Footer Styling

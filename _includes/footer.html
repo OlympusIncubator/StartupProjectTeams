@@ -1,38 +1,15 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+<div class="row">
+    <div class="small-8 small-centered large-6 large-centered">         
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+        <a target="_blank" href="http://github.com/olympus-incubator">
+            <img class="social" src="{{'/img/social/github.svg'| prepend: site.baseurl }}"></a>          
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.main_title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.website }}</a></li>
-        </ul>
-      </div>
+        <a target="_blank" href="https://www.twitter.com/projectolympus/">
+            <img class="social" style="width:60px; margin-right:-5px;" src="{{'/img/social/twitter.svg'| prepend: site.baseurl }}"></a>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.footer_desc }}</p>
-      </div>
     </div>
-
-  </div>
+</div>
 
 </footer>
